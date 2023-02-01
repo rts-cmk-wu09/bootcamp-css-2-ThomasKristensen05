@@ -1,0 +1,31 @@
+header img {
+    height: 5em;
+}
+
+.menu {
+    position: absolute;
+    top: 6.9em;
+    left: 1em;
+}
+
+.fa-solid {
+    position: absolute;
+    top: 6.9em;
+    left: 5.5em;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.header-nav label {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .7em;
+}
+
+#checkbox {
+    display: none;
+}
