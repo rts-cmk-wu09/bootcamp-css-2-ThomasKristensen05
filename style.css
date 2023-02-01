@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 header img {
     height: 5em;
 }
@@ -8,7 +12,7 @@ header img {
     left: 1em;
 }
 
-.fa-solid {
+.fa-magnifying-glass {
     position: absolute;
     top: 6.9em;
     left: 5.5em;
@@ -17,13 +21,28 @@ header img {
 .header-nav {
     display: flex;
     justify-content: center;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.119);
 }
 
-.header-nav label {
+.header-nav label,
+.login {
     font-family: sans-serif;
     font-weight: bold;
     font-size: .7em;
+}
+
+.login {
+    position: absolute;
+    right: 1em;
+    top: 6.9em;
+    color: black;
+    text-decoration: none;
+}
+
+.abonnement {
+    position: absolute;
+    right: 1em;
 }
 
 #checkbox {
